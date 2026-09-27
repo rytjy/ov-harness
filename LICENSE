@@ -30,5 +30,5 @@ Third-party and target notices:
   for this harness. No target protocol implementation source is redistributed.
   Interface signatures were derived from public ABIs and publicly verified
   deployments. Where a target's own repository carries a restrictive licence
-  (e.g. `a third-party instance directory` refers to a BUSL-1.1 repository), that licence
+  (e.g. `instances/stakingverse` refers to a BUSL-1.1 repository), that licence
   applies to the target's own code, which is **not** included here.

@@ -54,8 +54,7 @@ README for the exact command, addresses and the verbatim result.
 |---|---|---|---|---|
 | [`instances/overnight`](instances/overnight) | Base (8453) | USD+ rebasing share vault | 6 | all PASS (no counterexample) |
 | [`instances/lagoon`](instances/lagoon) | Ethereum (1) | async ERC-4626 vault | 5 | 5/5 PASS; one liveness test left red on purpose |
-
-> A third instance (LUKSO) exists locally; it surfaced a **potential live-protocol discrepancy** and is **withheld pending coordinated disclosure** to that protocol's team. No details are published here.
+| [`instances/stakingverse`](instances/stakingverse) | LUKSO (42) | LST share vault | 5 | 4 PASS / 1 invariant violation recorded |
 
 The third one doubles as an example of a **FAIL** outcome: the campaign reached a state that
 violates a stated invariant and Foundry shrank it to a single call. That output is raw engineering
