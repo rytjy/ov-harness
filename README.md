@@ -106,6 +106,13 @@ instances/<name>/                one self-contained pinned project per target
 - `--invariant-runs` / `--invariant-depth` are not CLI flags in `forge` 1.5.x; use the
   `FOUNDRY_INVARIANT_RUNS` / `FOUNDRY_INVARIANT_DEPTH` environment variables instead.
 
+## Docs
+
+- [`docs/MR_FIX_COMMIT_CHECK.md`](docs/MR_FIX_COMMIT_CHECK.md) — *Is the claimed fix actually in
+  the reviewed revision?* A repeatable check for remediation reports (English;
+  [中文版](docs/MR_FIX_COMMIT_CHECK.zh.md)).
+- [`scripts/check_fix_commits.sh`](scripts/check_fix_commits.sh) — the check as one command.
+
 ## Disclaimer
 
 This project is a testing utility. It is **not** an audit, does not perform vulnerability
